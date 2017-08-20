@@ -19,14 +19,23 @@ You can mine into whatever pool you like, but the recommended pools are as follo
 • Suprnova.cc pools: (you only need to create one account for these pools, hence only following the first link is necessary)
 
 DCR: https://dcr.suprnova.cc/index.php?page=gettingstarted
+
 MONA: https://mona.suprnova.cc/index.php?page=gettingstarted
+
 DGB: https://dgbg.suprnova.cc/index.php?page=gettingstarted
+
 LBC: https://lbry.suprnova.cc/index.php?page=gettingstarted
+
 SIGT: https://sigt.suprnova.cc/index.php?page=gettingstarted
+
 SIB: https://sib.suprnova.cc/index.php?page=gettingstarted
+
 KMD: https://kmd.suprnova.cc/index.php?page=gettingstarted
+
 ZCL: https://zcl.suprnova.cc/index.php?page=gettingstarted
+
 ZEC: https://zec.suprnova.cc/index.php?page=gettingstarted
+
 ZEN: https://zen.suprnova.cc/index.php?page=gettingstarted
 
 • Miningfield pool:
