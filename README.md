@@ -38,15 +38,18 @@ ZEC: https://zec.suprnova.cc/index.php?page=gettingstarted
 
 ZEN: https://zen.suprnova.cc/index.php?page=gettingstarted
 
+
 • Miningfield pool:
 
 DMD: https://dmd.miningfield.com/index.php?page=gettingstarted
 
 • Give-me-coins pool:
 
+
 FTC: https://give-me-coins.com/pool/dashboard (make sure to select FTC after creating an account)
 
 • GRS Suprnova.cc pool: (this one requires a separate account from other Suprnova.cc pools)
+
 
 GRS: https://grs.suprnova.cc/index.php?page=gettingstarted
 
