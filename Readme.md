@@ -8,7 +8,7 @@ Also, go into the config.r file in the main directory and follow the instruction
 Note: it may be easier to edit the file with Notepad++ instead of Notepad.
 
 
-Instructions on setting up mining pool accounts:__
+Instructions on setting up mining pool accounts:<br />
 
 You can mine into whatever pool you like, but the recommended pools are as follows:
 
