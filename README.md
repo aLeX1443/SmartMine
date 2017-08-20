@@ -1,6 +1,6 @@
 # SmartMine
 
-### SmartMiner's first public release.
+### SmartMine's first public release.
 ---
 ### Features:
 - SmartMine switches to the most profitable coin automatically
