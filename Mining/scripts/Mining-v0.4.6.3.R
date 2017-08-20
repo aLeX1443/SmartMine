@@ -1,4 +1,4 @@
-# setwd("C:\\Users\\Alex\\Documents\\SmartMiner-v0.4.6.1")
+# setwd("C:\\Users\\Alex\\Documents\\SmartMine-v0.4.6.2")
 
 load(file = paste0(getwd(), "/Mining/hashes/084c03a2.rds"))
 load(file = paste0(getwd(), "/Mining/hashes/0d292851.rds"))

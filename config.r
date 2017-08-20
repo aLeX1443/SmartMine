@@ -33,4 +33,8 @@ power.threshold.for.restart = 0.3
 
 stats.reporting = TRUE
 
+# If dev.fee is set to TRUE, a 2% fee will be applied. The fee works by mining into your specified pools 98% of the time and mining into our pools 2% of the time.
+# By default, this option is set to FALSE while the program is in development.
+dev.fee = FALSE
+
 # Make sure that this file is saved as .r
