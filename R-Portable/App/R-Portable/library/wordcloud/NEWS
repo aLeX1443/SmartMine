@@ -1,0 +1,18 @@
+2.5
+    o	updated for tm 0.6
+2.4
+    o	Changed licensing statement at the request of CRAN
+    o	Added fixed.asp option to wordcloud
+2.2
+    o	added textplot
+    o	exposed the word layout algorithm
+2.0
+    o	added commonality and comparison clouds
+    o	word coloring can be done on a per word basis (thanks to David Robinson)
+1.4
+    o	change import to include
+1.2
+    o	added random word coloring option (thank you xavier dutoit for the patch) 
+    o	Fixed max.words bug (thank you Manuel Eugster and Bettina Gruen for the patch) 
+1.1
+    o	Initial release

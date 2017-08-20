@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<newsitem itemid="2330" id="root" date="1996-08-20" xml:lang="en">
+<title>USA: Tylan stock jumps; weighs sale of company.</title>
+<headline>Tylan stock jumps; weighs sale of company.</headline>
+<dateline>SAN DIEGO</dateline>
+<text>
+<p>The stock of Tylan General Inc. jumped Tuesday after the maker of
+process-management equipment said it is exploring the sale of the
+company and added that it has already received some inquiries from
+potential buyers.</p>
+<p>Tylan was up $2.50 to $12.75 in early trading on the Nasdaq market.</p>
+<p>The company said it has set up a committee of directors to oversee
+the sale and that Goldman, Sachs &amp; Co. has been retained as its
+financial adviser.</p>
+</text>
+<copyright>(c) Reuters Limited 1996</copyright>
+<metadata>
+<codes class="bip:countries:1.0">
+<code code="USA"> </code>
+</codes>
+<codes class="bip:industries:1.0">
+<code code="I34420"> </code>
+</codes>
+<codes class="bip:topics:1.0">
+<code code="C15"> </code>
+<code code="C152"> </code>
+<code code="C18"> </code>
+<code code="C181"> </code>
+<code code="CCAT"> </code>
+</codes>
+<dc element="dc.publisher" value="Reuters Holdings Plc"/>
+<dc element="dc.date.published" value="1996-08-20"/>
+<dc element="dc.source" value="Reuters"/>
+<dc element="dc.creator.location" value="SAN DIEGO"/>
+<dc element="dc.creator.location.country.name" value="USA"/>
+<dc element="dc.source" value="Reuters"/>
+</metadata>
+</newsitem>

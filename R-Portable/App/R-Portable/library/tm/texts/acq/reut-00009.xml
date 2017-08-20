@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<REUTERS TOPICS="YES" LEWISSPLIT="TRAIN" CGISPLIT="TRAINING-SET" OLDID="5671" NEWID="128">
+ <DATE>26-FEB-1987 17:01:28.10</DATE>
+ <TOPICS>
+  <D>acq</D>
+ </TOPICS>
+ <PLACES>
+  <D>usa</D>
+ </PLACES>
+ <PEOPLE/>
+ <ORGS/>
+ <EXCHANGES/>
+ <COMPANIES/>
+ <UNKNOWN>F
+   f0121 reute
+u f BC-LIEBERT-CORP-&lt;LIEB&gt;-A   02-26 0051</UNKNOWN>
+ <TEXT>
+  <TITLE>LIEBERT CORP &lt;LIEB&gt; APPROVES MERGER</TITLE>
+  <DATELINE>COLUMBUS, Ohio, Feb 26 -</DATELINE>
+  <BODY>Liebert Corp said its shareholders
+approved the merger of a wholly-owned subsidiary of Emerson
+Electric Co &lt;EMR&gt;.
+    Under the terms of the merger, each Liebert shareholder
+will receive .3322 shares of Emerson stock for each Liebert
+share.
+ Reuter</BODY>
+ </TEXT>
+</REUTERS>

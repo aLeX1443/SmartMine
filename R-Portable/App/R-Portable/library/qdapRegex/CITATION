@@ -1,0 +1,16 @@
+citHeader("To cite qdapRegex in publications, please use:")
+
+
+citEntry(entry = "manual",
+    title = "{qdapRegex}: Regular Expression Removal, Extraction, and Replacement Tools",
+    author = "Tyler W. Rinker",
+    organization = "University at Buffalo/SUNY",
+    address = "Buffalo, New York",
+    note = "0.7.2",
+    year = "2017",
+    url = "http://github.com/trinker/qdapRegex", 
+    textVersion  = paste("Rinker, T. W. (2017).",
+        "qdapRegex: Regular Expression Removal, Extraction, and Replacement Tools.",
+        "0.7.2. University at Buffalo. Buffalo, New York.",
+        "http://github.com/trinker/qdapRegex")
+)

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#R reads in R_PROFILE first - which will start up the server.r script, which then sources in anything from R_SERVER_SOURCE
+#R_SERVER_SOURCE is a colon delimited list of user source files to read in
+export R_PROFILE=server.r
+export R_SERVER_SOURCE=$1
+
+r --slave --silent

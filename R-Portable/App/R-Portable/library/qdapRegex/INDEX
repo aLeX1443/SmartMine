@@ -1,0 +1,63 @@
+S                       Use C-style String Formatting Commands
+TC                      Upper/Lower/Title Case
+bind                    Add Left/Right Character(s) Boundaries
+bind_or                 Boundary Wrap (Bind) and 'or' Concatenate
+                        Elements
+c.extracted             Combines a extracted Object
+cheat                   A Cheat Sheet of Common Regex Task Chunks
+escape                  Escape Strings From Parsing
+explain                 Visualize Regular Expressions
+grab                    Grab Regular Expressions from Dictionaries
+group                   Group Regular Expressions
+group_or                Group Wrap and 'or' Concatenate Elements
+is.regex                Test Regular Expression Validity
+pastex                  Paste Regular Expressions
+print.explain           Prints a explain object
+print.extracted         Prints a extracted Object
+print.regexr            Prints a regexr Object
+qdapRegex               qdapRegex: Regular Expression Removal,
+                        Extraction, & Replacement Tools for the 'qdap'
+                        Package
+regex_cheat             A dataset containing the regex chunk name, the
+                        regex string, and a description of what the
+                        chunk does.
+regex_supplement        Supplemental Canned Regular Expressions
+regex_usa               Canned Regular Expressions (United States of
+                        America)
+rm_                     Remove/Replace/Extract Function Generator
+rm_abbreviation         Remove/Replace/Extract Abbreviations
+rm_between              Remove/Replace/Extract Strings Between 2
+                        Markers
+rm_bracket              Remove/Replace/Extract Brackets
+rm_caps                 Remove/Replace/Extract All Caps
+rm_caps_phrase          Remove/Replace/Extract All Caps Phrases
+rm_citation             Remove/Replace/Extract Citations
+rm_citation_tex         Remove/Replace/Extract LaTeX Citations
+rm_city_state           Remove/Replace/Extract City & State
+rm_city_state_zip       Remove/Replace/Extract City, State, & Zip
+rm_date                 Remove/Replace/Extract Dates
+rm_default              Remove/Replace/Extract Template
+rm_dollar               Remove/Replace/Extract Dollars
+rm_email                Remove/Replace/Extract Email Addresses
+rm_emoticon             Remove/Replace/Extract Emoticons
+rm_endmark              Remove/Replace/Extract Endmarks
+rm_hash                 Remove/Replace/Extract Hash Tags
+rm_nchar_words          Remove/Replace/Extract N Letter Words
+rm_non_ascii            Remove/Replace/Extract Non-ASCII
+rm_non_words            Remove/Replace/Extract Non-Words
+rm_number               Remove/Replace/Extract Numbers
+rm_percent              Remove/Replace/Extract Percentages
+rm_phone                Remove/Replace/Extract Phone Numbers
+rm_postal_code          Remove/Replace/Extract Postal Codes
+rm_repeated_characters
+                        Remove/Replace/Extract Words With Repeating
+                        Characters
+rm_repeated_phrases     Remove/Replace/Extract Repeating Phrases
+rm_repeated_words       Remove/Replace/Extract Repeating Words
+rm_tag                  Remove/Replace/Extract Person Tags
+rm_time                 Remove/Replace/Extract Time
+rm_title_name           Remove/Replace/Extract Title + Person Name
+rm_url                  Remove/Replace/Extract URLs
+rm_white                Remove/Replace/Extract White Space
+rm_zip                  Remove/Replace/Extract Zip Codes
+validate                Regex Validation Function Generator

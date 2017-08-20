@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<REUTERS TOPICS="YES" LEWISSPLIT="TRAIN" CGISPLIT="TRAINING-SET" OLDID="12550" NEWID="368">
+ <DATE>2-MAR-1987 08:25:42.14</DATE>
+ <TOPICS>
+  <D>crude</D>
+  <D>ship</D>
+ </TOPICS>
+ <PLACES>
+  <D>usa</D>
+ </PLACES>
+ <PEOPLE/>
+ <ORGS/>
+ <EXCHANGES/>
+ <COMPANIES/>
+ <UNKNOWN>Y F
+   f0300 reute
+u f BC-PHILADELPHIA-PORT-CLO   03-02 0115</UNKNOWN>
+ <TEXT>
+  <TITLE>PHILADELPHIA PORT CLOSED BY TANKER CRASH</TITLE>
+  <DATELINE>PHILADELPHIA, March 2 -</DATELINE>
+  <BODY>The port of Philadelphia was closed
+when a Cypriot oil tanker, Seapride II, ran aground after
+hitting a 200-foot tower supporting power lines across the
+river, a Coast Guard spokesman said.
+    He said there was no oil spill but the ship is lodged on
+rocks opposite the Hope Creek nuclear power plant in New
+Jersey.
+    He said the port would be closed until today when they
+hoped to refloat the ship on the high tide.
+    After delivering oil to a refinery in Paulsboro, New
+Jersey, the ship apparently lost its steering and hit the power
+transmission line carrying power from the nuclear plant to the
+state of Delaware.
+ Reuter</BODY>
+ </TEXT>
+</REUTERS>

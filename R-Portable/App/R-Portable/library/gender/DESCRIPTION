@@ -1,0 +1,32 @@
+Package: gender
+Type: Package
+Title: Predict Gender from Names Using Historical Data
+Version: 0.5.1
+Date: 2015-09-03
+Authors@R: c(person("Lincoln", "Mullen", role = c("aut", "cre"),
+    email = "lincoln@lincolnmullen.com"),
+    person("Cameron", "Blevins", role = "ctb"),
+    person("Ben", "Schmidt", role = "ctb"))
+Description: Encodes gender based on names and dates of birth using historical
+    datasets. By using these datasets instead of lists of male and female names,
+    this package is able to more accurately guess the gender of a name, and it
+    is able to report the probability that a name was male or female.
+URL: https://github.com/ropensci/gender
+Depends: R (>= 3.0.0), utils, stats
+Imports: dplyr (>= 0.4.2), httr (>= 1.0.0), jsonlite (>= 0.9.16)
+Suggests: genderdata (>= 0.5.0), ggplot2 (>= 1.0.0), knitr (>= 1.11),
+        testthat (>= 0.10.0)
+Additional_repositories: http://packages.ropensci.org
+LazyData: yes
+License: MIT + file LICENSE
+VignetteBuilder: knitr
+BugReports: https://github.com/ropensci/gender/issues
+NeedsCompilation: no
+Packaged: 2016-12-05 14:58:18 UTC; hornik
+Author: Lincoln Mullen [aut, cre],
+  Cameron Blevins [ctb],
+  Ben Schmidt [ctb]
+Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>
+Repository: CRAN
+Date/Publication: 2016-12-05 18:28:47
+Built: R 3.4.1; ; 2017-08-12 00:05:41 UTC; windows

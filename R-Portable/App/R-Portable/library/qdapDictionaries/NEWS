@@ -1,0 +1,101 @@
+NEWS 
+====
+
+Versioning
+----------
+
+Releases will be numbered with the following semantic versioning format:
+
+<major>.<minor>.<patch>
+
+And constructed with the following guidelines:
+
+* Breaking backward compatibility bumps the major (and resets the minor 
+  and patch)
+* New additions without breaking backward compatibility bumps the minor 
+  (and resets the patch)
+* Bug fixes and misc changes bumps the patch
+
+
+
+qdapDictionaries 1.0.6
+----------------------------------------------------------------
+
+A named index was used in the internal function `left.just` producing an `NA`.
+This caused an error to be thrown in **R Under development (unstable) (2015-05-19 r68384)**.
+
+
+qdapDictionaries 1.0.5
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `contractions` did not contain "we've" but erroneously contained "what did" 
+  rather than "what'd" and "when" rather than "when'd" = "when did".
+
+* The data sets `emoticon` and `abbreviations` had the columns stored as `factor`.  
+  These columns have been changed to `character`.
+
+NEW FEATURES
+
+* `function.words` a list of function words added from: http://myweb.tiscali.co.uk/wordscape/museum/funcword.html
+
+* `discourse.markers.alemany` a list of Aalemany's (2005) discourse markers 
+  added from: http://www.cs.famaf.unc.edu.ar/~laura/shallowdisc4summ/tesi_electronica.pdf
+
+CHANGES
+
+* The **qdap** package is no longer in Suggests: in the DESCRIPTION file.
+
+
+qdapDictionaries 1.0.2
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `key.syn` contained antonyms and elements that were error messages (character).
+  This has been fixed.  Reference issue #2. (Jingjing Zou)
+
+NEW FEATURES
+
+* `GradyAugmented` was added.  This augmented Grady data set is a large list of 
+ known English words and proper nouns.
+
+IMPROVEMENTS
+
+* `contractions` data set picks up 3 words: "it'll", "'cause", & "there'll".
+
+
+qdapDictionaries 1.0.0 - 1.0.1
+----------------------------------------------------------------
+
+The removal of environments and addition of keys (name change from env.XXX to 
+key.XXX) may cause a break with backward compatibility, hence the major version 
+bump to 1.0.0.
+
+CHANGES
+
+* The `env.syl`, `env.pol`, `env.power`, `env.strength`, and `env.syn` have been 
+  converted from environments to `data.table` based hash keys and renamed to 
+  `key.syl`, `key.pol`, `key.power`, `key.strength`, and `key.syn`.
+
+
+qdapDictionaries 0.0.4
+----------------------------------------------------------------
+
+NEW FEATURES
+
+*  The following sentiment related data sets have been added: `strong.words`, 
+  `weak.words`, `power.words`, `submit.words`, `env.strength`, `env.power`.
+
+
+qdapDictionaries 0.0.2
+----------------------------------------------------------------
+
+First version sent to CRAN
+
+qdapDictionaries 0.0.1
+----------------------------------------------------------------
+
+The dictionaries and word lists previously found in **qdap** have been moved to a separate package, qdapDictionaries.  This is the first instalment of the package.
+

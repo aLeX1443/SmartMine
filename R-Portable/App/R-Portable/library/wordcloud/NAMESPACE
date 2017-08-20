@@ -1,0 +1,6 @@
+useDynLib(wordcloud)
+exportPattern("^[[:alpha:]]+")
+import( Rcpp )
+import( slam )
+import(methods)
+import(RColorBrewer)

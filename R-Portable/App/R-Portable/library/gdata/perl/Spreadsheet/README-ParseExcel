@@ -1,0 +1,80 @@
+NAME
+    Spreadsheet::ParseExcel - Extract information from Excel file.
+
+DESCRIPTION
+    This module allows you to extract information from Excel file.
+
+    This module can handle files in Excel95, 97 and 2000 format.
+
+    The module will work on the majority of Windows, UNIX and
+    Macintosh platforms.
+
+REQUIREMENT
+    This module requires these modules:
+        OLE::Storage_Lite
+        Jcode.pm      (if you are using FmtJapan, or FmtJapan2)
+        Unicode::Map  (if you are using FmtJapan2 or FmtUnicode)
+        IO::Scalar    (if PERLIO is not available)
+        Spreadsheet::WriteExcel (to use Spreadsheet::ParseExcel::SaveParser)
+
+INSTALLATION
+    The module can be installed using the standard Perl procedure:
+
+        perl Build.PL
+        ./Build
+        ./Build test
+        ./Bbuild install
+
+      or
+
+        perl Makefile.PL
+        make
+        make test
+        make install    # You may need to be root
+        make clean      # or make realclean
+
+      or using CPAN.pm or CPANPLUS.pm
+
+        cpan Spreadsheet::ParseExcel
+
+    Windows users without a working "make" can get nmake from:
+        ftp://ftp.microsoft.com/Softlib/MSLFILES/nmake15.exe
+
+For FmtJapan2
+  If you use FmtJapan2, you must do following actions:
+
+  (1) Copy "CP932Excel.map" included with this distribution to an
+      applicatable directry.
+
+  (2) To add "CP932Excel" as map name, append following lines to
+      REGISTRY in the Unicode::Map hierarchy
+      (changing map directy to applicatable directry):
+
+name:    CP932Excel
+srcURL:  $SrcUnicode/VENDORS/MICSFT/WINDOWS/CP932.TXT
+src:     $DestUnicode/VENDORS/MICSFT/WINDOWS/CP932.TXT
+map:     (which you copied directry)/CP932Excel.map
+# Don't remove this line
+
+
+AUTHOR
+
+    Current maintainer 0.40+: John McNamara jmcnamara@cpan.org
+
+    Maintainer 0.27-0.33: Gabor Szabo szabgab@cpan.org
+
+    Original author: Kawai Takanori (Hippo2000) kwitknr@cpan.org
+
+
+SUPPORT
+    Before you report problems, please check the "KNOWN PROBLEMS" section
+    in the manual page for Spreadsheet::ParseExcel.
+
+    There is a Google group for discussing and asking questions about
+    Spreadsheet::ParseExcel.
+    http://groups-beta.google.com/group/spreadsheet-parseexcel/
+
+    Bugs can be reported via rt.cpan.org. See the following for instructions:
+    http://rt.cpan.org/Public/Dist/Display.html?Name=Spreadsheet-ParseExcel
+
+    Test cases are always welcome.

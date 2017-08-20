@@ -1,0 +1,11 @@
+check_genderdata_package
+                        Check whether to install data for gender
+                        function and install if necessary
+gender                  Predict gender from first names using
+                        historical data
+gender-package          Gender: predict gender by name from historical
+                        data
+gender_df               Use gender prediction with data frames
+install_genderdata_package
+                        Install the genderdata package after checking
+                        with the user

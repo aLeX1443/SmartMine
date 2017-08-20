@@ -1,0 +1,5 @@
+SpreadSheet::ParseExcel 0.56
+Archive::Zip 1.30
+IO::Stringy 2.110
+OLE::Storage_Lite 0.19
+Compress::Raw::Zlib 2.024

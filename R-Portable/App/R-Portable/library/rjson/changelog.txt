@@ -1,0 +1,38 @@
+0.2.15: Nov 2, 2014
+    bugfix: toJSON was not escaping control characters 0-0x1f, and 0x7f. (Thanks to Early Ehlinger for patch)
+0.2.14: June 10, 2014
+	Fixed bug where fromJSON("{\"a\": 0,}") returned a list() rather than raising an error regarding the trailing comma. (Thanks Stavros Macrakis for the report)
+0.2.12: Jan 14, 2013
+	Added unexpected.escape to the "C" fromJSON method. This allows users to parse invalid json containing bad escaped data. 
+	Defaults to raising an error as the old version did. Also added position to error/warning messages
+0.2.11: Nov 29, 2012
+	Fixed toJSON bug where factors were saved as integers rather than strings
+0.2.10: Sep 30, 2012
+	Fixed precission issue in toJSON's C implementation where doubles only had 6 digits (as the std::iostream default specified). Now it should be the full precission. (Thanks Michael)
+	Fixed issue where toJSON(..., "R") never passed the "R" value on recursive calls (so it ended up calling the (potentially buggy) C version
+0.2.9: July 22, 2012
+	Fixed vector toJSON bug where toJSON(numeric(0)) would return "" instead of "[]" (thanks Diego Forteza)
+0.2.8: Mar 18, 2012
+	Changed ordering of includes in dump.cpp to fix compilation issue on OSX (thanks Rob)
+0.2.7: Mar 12, 2012
+	rewrote toJSON to use a C implementation which is much faster. Thanks to Simon for the reminder.
+0.2.6: Oct 17, 2011
+	bufix: fromJSON('["A",["B","C"]]') incorrectly returned "A" "B" (thanks Brad Friedman for reporting it)
+	bufix: fromJSON('["A", null]', method="R") was using NA rather than NULL (missed case from version 0.1.6)
+0.2.4: June 26, 2011
+	bugfix: too hasty with the previous release, and introduced a bug for characters greater than 512 bytes (was blindly doubling the buffer size when sometimes it needed more)
+0.2.4: June 25, 2011
+	bugfix: memory issue when parsing strings with mostly (or only) escaped characters greater than 256bytes
+0.2.3: Dec 12, 2010
+	bugfix: allow '\r' to b whitespace rather than just use '\n'
+0.2.2: Nov 29, 2010
+	bugfix: protection stack overflow - now uses PROTECT_WITH_INDEX() rather pushing far too many protects on to the stack
+	bugfix: added missing protects to SET_LENGTH calls
+0.2.1: unknown (missing entry)
+0.2.0: unknown (missing entry)
+	introduced a C based parser for reading JSON
+0.1.7: August 28, 2009
+	fixed toJSON bug: named vectors are now treated as json lists
+0.1.6: August 23, 2009
+	fixed toJSON bug: NA, NaN, Inf, -Inf are not converted to strings
+	fromJSON: null used to be returned as NA, but now is returned as NULL (but will still have the associated key displayed in the list)

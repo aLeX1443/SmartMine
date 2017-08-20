@@ -1,0 +1,230 @@
+NEWS 
+====
+
+Versioning
+----------
+
+Releases will be numbered with the following semantic versioning format:
+
+<major>.<minor>.<patch>
+
+And constructed with the following guidelines:
+
+* Breaking backward compatibility bumps the major (and resets the minor 
+  and patch)
+* New additions without breaking backward compatibility bumps the minor 
+  (and resets the patch)
+* Bug fixes and misc changes bumps the patch
+
+
+qdapTools 1.3.2
+----------------------------------------------------------------
+
+
+BUG FIXES
+
+NEW FEATURES
+
+MINOR FEATURES
+
+IMPROVEMENTS
+
+CHANGES
+
+
+qdapTools 1.3.1
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* `read_docx` added to read in .docx dcouments.
+
+* `start_end` added to find the locations of start/end places for the ones in a 
+  binary vector.
+
+* `run_split` added to split a string into run chunks.
+
+* `shift`, `shift_left`, and `shift_right` added to shift vectors.
+
+IMPROVEMENTS
+
+* `counts2list` now uses `apply` and gains a speed boost.
+
+* `loc_split`  picks up a speed boost thanks to indexing and dropping a reliance 
+  on `cut` + `split`.
+
+qdapTools 1.0.4 - 1.1.0
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* `loc_split` added to split data forms (`list`, `vector`, `data.frame`, 
+  `matrix`) on a vector of integer locations.
+
+* `matrix2long` makes a long format data.frame.  It takes a matrix object, stacks 
+  all columns and adds identifying columns by repeating row and column names
+  accordingly.  
+
+* `run_split` added to split strings into runs.
+
+
+IMPROVEMENTS
+
+* `split_vector` picks up a `regex` argument to allow for regular expression 
+  search of break location.
+
+
+qdapTools 1.0.3
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `lookup` threw an error with single length input `terms` and `missing=NULL`
+  (see issue #6 for more).  This behavior has been fixed. 
+
+* `lookup` changed the order of existing `data.frames` because of `data.table`'s
+  scoping which modifies data in place.  This was spotted by Kirill Muller (see
+  issue #7) and a solution provided by Matthew Flickinger 
+  (http://stackoverflow.com/a/26046777/1000343).
+
+
+qdapTools 1.0.2
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `lookup` would throw warning and convert to more restrictive mode when 
+  (1) `terms` mode and `key.reassign` modes didn't match & (2) `missing = NULL`.
+  This behavior has been fixed.  See issue #5.
+
+NEW FEATURES
+
+* `split_vector` added to split a `vector` into a list of vectors based on split 
+  points.
+
+IMPROVEMENTS
+
+* `list2df` would return `rownames` matching the names of the original list 
+  rather than numeric indexes.  `row.names = FALSE` was added to the call to
+  `data.frame` to correct this.
+
+
+qdapTools 1.0.1
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `pad` did not work consistently across all platforms.  This behavior has been 
+  fixed.
+
+
+qdapTools 1.0.0
+----------------------------------------------------------------
+
+This version of `qdapTools` incorporates the `data.table` package.  This 
+  provides huge speed boosts within a flexible frame work.  The old behavior of 
+  the `lookup` functions was to convert `factor` to `character`.  The latest 
+  version does not perform this coercion.  Those relying on this behavior may 
+  find their code breaks hence the major bump to version 1.0.0.  Thank you to 
+  Arun Srinivasan for his demonstration of the `data.table` package and help in 
+  incorporating it into `qdapTools`.
+
+BUG FIXES
+
+* `lookup` did not have a method for when `key.match` was a factor;
+  `lookup.factor` added.
+
+NEW FEATURES
+
+* `lookup` and `hash` families of functions wraps `data.table` package to 
+  provide the ease of the lookup binary operators with the speed of the 
+  `data.table` package.
+
+* `qdapTools` now uses the `testthat` package to provide unit testing on 
+  the package functions.
+
+IMPROVEMENTS
+
+* `v_outer` gains a speed boost through optimization optimization, including a 
+  suggestion from stackoverflow.com's eddi: 
+  http://stackoverflow.com/users/817778/eddi.
+
+* `id` now allows the user to supply a character string prefix via the `prefix` 
+  argument.
+
+CHANGES
+
+* The `%l*%` binary operator becomes deprecated as its behavior is no longer 
+  needed with the inclusion of the `data.table` package.  it will be removed in 
+  a subsequent version of `qdapTools`.
+
+
+qdapTools 0.2.0
+----------------------------------------------------------------
+
+This version of qdapTools highlights optimization of `lookup` and `v_outer`.
+It also adds the `mtabulate` function from the qdap package.  Future development 
+will revolve around further optimization of `lookup` and `v_outer`.  `lookup` 
+may utilize the **data.table** package to gain speed. 
+
+IMPROVEMENTS
+
+* `lookup` and `hash_look` family of functions gains a major speed boost thanks 
+  to @Arun Srinivasan.  See: https://gist.github.com/arunsrinivasan/ee2d9ef43bdc02c32958
+
+* `lookup` becomes a generic method that operates on various classes.  This 
+  gains a slight speed boost.
+
+* `v_outer` becomes a generic method that operates on various classes.  This 
+  gains a slight speed boost.
+
+CHANGES
+
+* `mtabulate` moved from `qdap` to `qdapTools`.
+
+
+
+qdapTools 0.1.0
+----------------------------------------------------------------
+
+This release moves the `list2df` family of functions from `qdap` to qdapTools.  
+This completes the process of moving generic `qdap` tools into a separate 
+qdapTools package.
+
+CHANGES
+
+* The `list2df` family of functions have been moved from `qdap` to `qdapTools`.
+  These functions include: `list2df`, `matrix2df`, `vect2df`, `list_df2df`, 
+  `list_vect2df`, `counts2list`, & `vect2list`.
+
+
+
+qdapTools 0.0.3
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* `id` a function to generate a sequence of integers the `length`/`nrow` of an 
+  object.
+
+* `pad` a convenience wrapper for `sprintf` that pads the front end of strings 
+  with spaces or 0s.
+
+
+qdapTools 0.0.2
+----------------------------------------------------------------
+
+First push to CRAN.
+
+* `%l*%` added as a binary operator form of `lookup` that returns a factor when 
+  one is supplied in column 2 of the `key.match` `data.frame` supplied. 
+  Suggestion by Kirill Muller see: 
+  https://github.com/trinker/qdap/issues/167#issuecomment-41009219
+
+qdapTools 0.0.1
+----------------------------------------------------------------
+
+Tools used by qdap that may be of use outside of the context of text analysis 
+related tasks, have been moved to a separate package, qdapTools.  This is the 
+first installment of the package.
+

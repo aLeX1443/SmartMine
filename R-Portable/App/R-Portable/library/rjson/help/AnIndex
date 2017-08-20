@@ -1,0 +1,5 @@
+rjson-package	rjson
+fromJSON	fromJSON
+newJSONParser	newJSONParser
+rjson	rjson
+toJSON	toJSON

@@ -1,0 +1,24 @@
+%l*%                    Hash/Dictionary Lookup
+hash                    Hash/Dictionary Lookup
+hms2sec                 Convert h:m:s To/From Seconds
+id                      ID By Row Number or Sequence Along
+list2df                 List/Matrix/Vector to Dataframe/List/Matrix
+loc_split               Split Data Forms at Specified Locations
+lookup                  Hash Table/Dictionary Lookup 'lookup' -
+                        'data.table' based hash table useful for large
+                        vector lookups.
+lookup_e                Hash Table/Dictionary Lookup 'lookup_e' -
+                        Environment based hash table useful for large
+                        vector lookups.
+mtabulate               Tabulate Frequency Counts for Multiple Vectors
+pad                     Pad Strings
+print.v_outer           Prints a v_outer Object.
+read_docx               Read in .docx Content
+repo2github             Upload a Local Repo to GitHub
+run_split               Split a String Into Run Chunks
+shift                   Shift Vector Left/Right
+split_vector            Split a Vector By Split Points
+start_end               Get Location of Start/End Points
+text2color              Map Words to Colors
+url_dl                  Download Instructional Documents
+v_outer                 Vectorized Version of outer

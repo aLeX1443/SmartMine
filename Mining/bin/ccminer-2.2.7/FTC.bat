@@ -1,0 +1,1 @@
+miner -a neoscrypt -o stratum+tcp://ftc-neo.give-me-coins.com:3336 -u aL_eX.worker1 -p x --no-color

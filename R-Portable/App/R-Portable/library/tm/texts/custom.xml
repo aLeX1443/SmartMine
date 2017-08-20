@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<corpus>
+  <document short="invisible man">
+    <writer>Ano Nymous</writer>
+    <caption>The Invisible Man</caption>
+    <description>A story about an invisible man.</description>
+    <type>Science fiction</type>
+  </document>
+  <document short="(ne)scio">
+    <writer>Sokrates</writer>
+    <caption>Scio Nescio</caption>
+    <description>I know that I know nothing.</description>
+    <type>Classics</type>
+  </document>
+</corpus>

@@ -1,0 +1,44 @@
+Package: qdapRegex
+Type: Package
+Title: Regular Expression Removal, Extraction, and Replacement Tools
+Version: 0.7.2
+Date: 2017-04-09
+Authors@R: c(person("Jason", "Gray", "", role = "ctb"), person("Tyler",
+        "Rinker", email = "tyler.rinker@gmail.com", role = c("aut",
+        "cre")))
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Depends: R (>= 3.1.0)
+Imports: stringi (>= 0.5-5)
+Suggests: testthat
+LazyData: TRUE
+Description: A collection of regular expression tools associated with
+        the 'qdap' package that may be useful outside of the context of
+        discourse analysis. Tools include
+        removal/extraction/replacement of abbreviations, dates, dollar
+        amounts, email addresses, hash tags, numbers, percentages,
+        citations, person tags, phone numbers, times, and zip codes.
+License: GPL-2
+URL: http://trinker.github.com/qdapRegex/
+BugReports: http://github.com/trinker/qdapRegex/issues
+Collate: 'S.R' 'bind.R' 'bind_or.R' 'c.extracted.R' 'case.R' 'cheat.R'
+        'utils.R' 'rm_default.R' 'escape.R' 'explain.R' 'grab.R'
+        'group.R' 'group_or.R' 'is.regex.R' 'pastex.R'
+        'print.extracted.R' 'print.regexr.R' 'qdapRegex-package.R'
+        'rm_.R' 'rm_abbreviation.R' 'rm_between.R' 'rm_bracket.R'
+        'rm_caps.R' 'rm_caps_phrase.R' 'rm_citation.R'
+        'rm_citation_tex.R' 'rm_city_state.R' 'rm_city_state_zip.R'
+        'rm_date.R' 'rm_dollar.R' 'rm_email.R' 'rm_emoticon.R'
+        'rm_endmark.R' 'rm_hash.R' 'rm_nchar_words.R' 'rm_non_ascii.R'
+        'rm_non_words.R' 'rm_number.R' 'rm_percent.R' 'rm_phone.R'
+        'rm_postal_code.R' 'rm_repeated_characters.R'
+        'rm_repeated_phrases.R' 'rm_repeated_words.R' 'rm_tag.R'
+        'rm_time.R' 'rm_title_name.R' 'rm_url.R' 'rm_white.R'
+        'rm_zip.R' 'validate.R'
+RoxygenNote: 6.0.1
+NeedsCompilation: no
+Packaged: 2017-04-09 19:12:59 UTC; Tyler
+Author: Jason Gray [ctb],
+  Tyler Rinker [aut, cre]
+Repository: CRAN
+Date/Publication: 2017-04-09 21:29:36 UTC
+Built: R 3.4.1; ; 2017-08-11 21:52:27 UTC; windows

@@ -1,0 +1,19 @@
+import("openNLPdata")
+importFrom("NLP",
+           "Annotation", "Annotator", "Span",
+           "annotations_in_spans", "single_feature",
+           "Simple_Sent_Token_Annotator",
+           "Simple_Word_Token_Annotator",
+           "Simple_POS_Tag_Annotator",
+           "Simple_Entity_Annotator",
+           "Simple_Chunk_Annotator")
+importFrom("rJava",
+           ".jarray", ".jcast", ".jcall", ".jfield", ".jnew",
+           ".jsimplify")
+
+export("Maxent_Sent_Token_Annotator",
+       "Maxent_Word_Token_Annotator",
+       "Maxent_POS_Tag_Annotator",
+       "Maxent_Entity_Annotator",
+       "Maxent_Chunk_Annotator",
+       "Parse_Annotator")

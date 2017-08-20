@@ -1,0 +1,4 @@
+f2si                    f2si converts floating-point number to a string
+                        with SI prefixes
+kilo                    SI prefixes
+sitools-package         SI tools

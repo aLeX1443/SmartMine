@@ -1,0 +1,36 @@
+ NEWS/ChangeLog for venneuler
+------------------------------
+
+1.1-0	2011-08-09
+    o	improvements to speed and better solutions in cases where
+	there are large differences in sizes of the circles
+
+    o	Java code has been updated to use generics and thus requires
+	Java 1.5 or higher (use 1.0 series with Java 1.4)
+
+
+1.0-5	2011-05-04
+    o	bugfix
+
+1.0-4	2010-12-20
+    o	improved metric to address some extreme cases
+
+1.0-3	2010-09-17
+    o	improved behavior in some special cases
+
+1.0-2	2010-04-13
+    o	more improvements and bugfixes
+
+1.0-1	2010-04-06
+    o	improved algorithm
+
+1.0-0	2009-10-27
+    o	release on CRAN
+
+    o	updated documentation, changed set separator to &, added
+	matrix adjacency input, small fixes
+
+
+0.1-0	2009-08-20
+    o	first public release on RForge.net
+

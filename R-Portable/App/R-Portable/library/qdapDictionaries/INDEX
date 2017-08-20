@@ -1,0 +1,44 @@
+BuckleySaltonSWL        Buckley & Salton Stopword List
+DICTIONARY              Nettalk Corpus Syllable Data Set
+Dolch                   Dolch List of 220 Common Words
+Fry_1000                Fry's 1000 Most Commonly Used English Words
+GradyAugmented          Augmented List of Grady Ward's English Words
+                        and Mark Kantrowitz's Names List
+Leveled_Dolch           Leveled Dolch List of 220 Common Words
+NAMES                   First Names and Gender (U.S.)
+NAMES_LIST              First Names and Predictive Gender (U.S.) List
+NAMES_SEX               First Names and Predictive Gender (U.S.)
+OnixTxtRetToolkitSWL1   Onix Text Retrieval Toolkit Stopword List 1
+Top100Words             Fry's 100 Most Commonly Used English Words
+Top200Words             Fry's 200 Most Commonly Used English Words
+Top25Words              Fry's 25 Most Commonly Used English Words
+abbreviations           Small Abbreviations Data Set
+action.verbs            Action Word List
+adverb                  Adverb Word List
+amplification.words     Amplifying Words
+contractions            Contraction Conversions
+deamplification.words   De-amplifying Words
+discourse.markers.alemany
+                        Alemany's Discourse Markers
+emoticon                Emoticons Data Set
+function.words          Function Words
+interjections           Interjections
+key.pol                 Polarity Lookup Key
+key.power               Power Lookup Key
+key.strength            Strength Lookup Key
+key.syl                 Syllable Lookup Key
+key.syn                 Synonym Lookup Key
+labMT                   Language Assessment by Mechanical Turk (labMT)
+                        Sentiment Words
+negation.words          Negating Words
+negative.words          Negative Words
+positive.words          Positive Words
+power.words             Words that Indicate Power
+preposition             Preposition Words
+print.view_data         Prints a view_data Object
+qdapDictionaries        qdapDictionaries
+strong.words            Words that Indicate Strength
+submit.words            Words that Indicate Submission
+view_data               List all data sets available in a
+                        'qdapDictionaries'
+weak.words              Words that Indicate Weakness

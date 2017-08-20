@@ -1,0 +1,174 @@
+importFrom("stats", "na.omit")
+
+## Simple triplet matrix stuff
+export("as.simple_triplet_matrix",
+       "is.simple_triplet_matrix",
+       "simple_triplet_diag_matrix",
+       "simple_triplet_matrix",
+       "simple_triplet_zero_matrix"
+       )
+
+S3method("[", "simple_triplet_matrix")
+S3method("[<-", "simple_triplet_matrix")
+S3method("Math", "simple_triplet_matrix")
+S3method("Ops", "simple_triplet_matrix")
+S3method("Summary", "simple_triplet_matrix")
+S3method("as.matrix", "simple_triplet_matrix")
+S3method("as.simple_triplet_matrix", "simple_sparse_array")
+S3method("as.simple_triplet_matrix", "simple_triplet_matrix")
+S3method("as.simple_triplet_matrix", "matrix")
+S3method("as.simple_triplet_matrix", "default")
+S3method("as.simple_triplet_matrix", "dgTMatrix")
+S3method("as.simple_triplet_matrix", "dgCMatrix")
+S3method("as.simple_triplet_matrix", "dgRMatrix")
+S3method("as.simple_triplet_matrix", "matrix.coo")
+S3method("as.simple_triplet_matrix", "matrix.csr")
+S3method("as.simple_triplet_matrix", "matrix.csc")
+S3method("as.simple_triplet_matrix", "spam")
+S3method("as.vector", "simple_triplet_matrix")
+S3method("c", "simple_triplet_matrix")
+S3method("cbind", "simple_triplet_matrix")
+S3method("dim", "simple_triplet_matrix")
+S3method("dim<-", "simple_triplet_matrix")
+S3method("dimnames", "simple_triplet_matrix")
+S3method("dimnames<-", "simple_triplet_matrix")
+S3method("duplicated", "simple_triplet_matrix")
+S3method("is.numeric", "simple_triplet_matrix")
+S3method("mean", "simple_triplet_matrix")
+S3method("print", "simple_triplet_matrix")
+S3method("rbind", "simple_triplet_matrix")
+S3method("split", "simple_triplet_matrix")
+S3method("t", "simple_triplet_matrix")
+S3method("unique", "simple_triplet_matrix")
+
+## enhanced stuff
+useDynLib("slam",
+          "__valid_stm",
+          "__valid_ssa",
+          "__valid_v",
+          "_split_col",
+	  "_all_row",
+          "_part_index",
+          "_vector_index",
+          "_ini_array",
+          "_match_matrix",
+          "_unattr",
+          "_sums_stm",
+          "_row_tsums",
+          "_tcrossprod_stm_stm"    = "tcrossprod_stm_stm",
+          "_tcrossprod_stm_matrix" = "tcrossprod_stm_matrix",
+          "_col_apply_stm",
+          .fixes = "R"
+          )
+
+export("row_sums",
+       "col_sums",
+       "row_means",
+       "col_means"
+       )
+
+S3method("row_sums", "default")
+S3method("row_sums", "simple_triplet_matrix")
+S3method("row_sums", "dgTMatrix")
+S3method("row_sums", "dgCMatrix")
+
+S3method("col_sums", "default")
+S3method("col_sums", "simple_triplet_matrix")
+S3method("col_sums", "dgTMatrix")
+S3method("col_sums", "dgCMatrix")
+
+S3method("row_means", "default")
+S3method("row_means", "simple_triplet_matrix")
+S3method("row_means", "dgTMatrix")
+S3method("row_means", "dgCMatrix")
+
+S3method("col_means", "default")
+S3method("col_means", "simple_triplet_matrix")
+S3method("col_means", "dgTMatrix")
+S3method("col_means", "dgCMatrix")
+
+export("row_norms",
+       "col_norms")
+
+##
+export("tcrossprod_simple_triplet_matrix",
+       "crossprod_simple_triplet_matrix",
+       "matprod_simple_triplet_matrix")
+
+export("rowapply_simple_triplet_matrix",
+       "colapply_simple_triplet_matrix",
+       "crossapply_simple_triplet_matrix",
+       "tcrossapply_simple_triplet_matrix")
+
+##
+export("rollup")
+
+S3method("rollup", "default")
+S3method("rollup", "matrix")
+S3method("rollup", "array")
+S3method("rollup", "simple_sparse_array")
+S3method("rollup", "simple_triplet_matrix")
+
+## Simple sparse array stuff
+export("as.simple_sparse_array",
+       "is.simple_sparse_array",
+       "simple_sparse_array",
+       "simple_sparse_zero_array",
+       ##
+       "simplify_simple_sparse_array",
+       "reduce_simple_sparse_array",
+       "drop_simple_sparse_array",
+       ##
+       "extend_simple_sparse_array",
+       "abind_simple_sparse_array"
+       )
+
+S3method("[", "simple_sparse_array")
+S3method("[<-", "simple_sparse_array")
+S3method("Math", "simple_sparse_array")
+S3method("Summary", "simple_sparse_array")
+S3method("as.array", "simple_sparse_array")
+S3method("as.array", "simple_triplet_matrix")
+S3method("as.simple_sparse_array", "simple_sparse_array")
+S3method("as.simple_sparse_array", "simple_triplet_matrix")
+S3method("as.simple_sparse_array", "array")
+S3method("as.simple_sparse_array", "matrix")
+S3method("as.simple_sparse_array", "default")
+S3method("as.vector", "simple_sparse_array")
+S3method("dim", "simple_sparse_array")
+S3method("dim<-", "simple_sparse_array")
+S3method("dimnames", "simple_sparse_array")
+S3method("dimnames<-", "simple_sparse_array")
+S3method("is.numeric", "simple_sparse_array")
+S3method("mean", "simple_sparse_array")
+S3method("print", "simple_sparse_array")
+
+if(getRversion() >= "2.13.0") {
+    S3method("aperm", "simple_triplet_matrix")
+    S3method("aperm", "simple_sparse_array")
+}
+
+## Sparse matrix format readers and writers
+export("read_stm_CLUTO",
+       "write_stm_CLUTO",
+       "read_stm_MC",
+       "write_stm_MC"
+       )
+
+##
+## export("unfold",
+##        "fold")
+## S3method("unfold", "default")
+## S3method("unfold", "matrix")
+## S3method("unfold", "array")
+## S3method("unfold", "simple_triplet_matrix")
+## S3method("unfold", "simple_sparse_array")
+## S3method("fold",   "default")
+## S3method("fold",   "matrix")
+## S3method("fold",   "array")
+## S3method("fold",   "simple_triplet_matrix")
+## S3method("fold",   "simple_sparse_array")
+
+##
+export("slam_options")
+

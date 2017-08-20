@@ -1,0 +1,60 @@
+#' Visualize a Regular Expression
+#' 
+#' Visualize a regular expression via \url{https://www.debuggex.com}
+#' 
+#' @param pattern A regular expression pattern.
+#' @param \ldots Ignored.
+#' @references \url{http://stackoverflow.com/a/27574103/1000343}
+#' @author Matthew Flickinger
+#' @export
+#' @examples
+#' \donttest{
+#' view_regex("(?<=foo)\\s+[a-z]{1,2}(?<=foo)")
+#' }
+function(pattern, ...){
+
+    ## Code by Matthew Flickinger: http://www.matthewflickinger.com/
+    ## http://stackoverflow.com/a/27574103/1000343
+
+    payload<-list(title="Untitled Regex",
+        description="No description",
+        regex=pattern,
+        flavor="python",
+        strFlags="",
+        testString="My test data",
+        unitTests="[]",
+        share=TRUE)
+
+    ## Check if httr is installed and optionally install
+    reqcheck <- suppressWarnings(require("httr"))
+    if (!reqcheck) {
+
+        message("httr package not found.\nShould I attempt to get from CRAN?")
+        ans <- menu(c("Yes", "No"))
+        if (ans == "1") {
+            install.packages("httr", character.only=TRUE)
+        }
+        reqcheck <- require("httr")
+        if (!reqcheck) stop("Could not load or install httr package")
+    }    
+
+    ## Check if jsonlite is installed and optionally install
+    reqcheck2 <- suppressWarnings(require("jsonlite"))
+    if (!reqcheck2) {
+
+        message("jsonlite package not found.\nShould I attempt to get from CRAN?")
+        ans <- menu(c("Yes", "No"))
+        if (ans == "1") {
+            install.packages("jsonlite", character.only=TRUE)
+        }
+        reqcheck2 <- require("jsonlite")
+        if (!reqcheck2) stop("Could not load or install jsonlite package")
+    }  
+    
+    rr <- POST("https://www.debuggex.com/api/regex", 
+        body=lapply(payload, unbox), encode="json")
+    url <- paste0("https://www.debuggex.com/r/", content(rr)$token)
+    browseURL(url)
+}
+
+

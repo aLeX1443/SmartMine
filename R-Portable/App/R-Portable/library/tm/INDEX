@@ -1,0 +1,65 @@
+Corpus                  Corpora
+DataframeSource         Data Frame Source
+DirSource               Directory Source
+Docs                    Access Document IDs and Terms
+MC_tokenizer            Tokenizers
+PCorpus                 Permanent Corpora
+PlainTextDocument       Plain Text Documents
+Reader                  Readers
+SimpleCorpus            Simple Corpora
+Source                  Sources
+TermDocumentMatrix      Term-Document Matrix
+TextDocument            Text Documents
+URISource               Uniform Resource Identifier Source
+VCorpus                 Volatile Corpora
+VectorSource            Vector Source
+WeightFunction          Weighting Function
+XMLSource               XML Source
+XMLTextDocument         XML Text Documents
+ZipSource               ZIP File Source
+Zipf_plot               Explore Corpus Term Frequency Characteristics
+acq                     50 Exemplary News Articles from the
+                        Reuters-21578 Data Set of Topic acq
+c.VCorpus               Combine Corpora, Documents, Term-Document
+                        Matrices, and Term Frequency Vectors
+content_transformer     Content Transformers
+crude                   20 Exemplary News Articles from the
+                        Reuters-21578 Data Set of Topic crude
+findAssocs              Find Associations in a Term-Document Matrix
+findFreqTerms           Find Frequent Terms
+findMostFreqTerms       Find Most Frequent Terms
+getTokenizers           Tokenizers
+getTransformations      Transformations
+inspect                 Inspect Objects
+meta                    Metadata Management
+plot.TermDocumentMatrix
+                        Visualize a Term-Document Matrix
+readDOC                 Read In a MS Word Document
+readPDF                 Read In a PDF Document
+readPlain               Read In a Text Document
+readRCV1                Read In a Reuters Corpus Volume 1 Document
+readReut21578XML        Read In a Reuters-21578 XML Document
+readTabular             Read In a Text Document
+readTagged              Read In a POS-Tagged Word Text Document
+readXML                 Read In an XML Document
+read_dtm_Blei_et_al     Read Document-Term Matrices
+removeNumbers           Remove Numbers from a Text Document
+removePunctuation       Remove Punctuation Marks from a Text Document
+removeSparseTerms       Remove Sparse Terms from a Term-Document Matrix
+removeWords             Remove Words from a Text Document
+stemCompletion          Complete Stems
+stemDocument            Stem Words
+stopwords               Stopwords
+stripWhitespace         Strip Whitespace from a Text Document
+termFreq                Term Frequency Vector
+tm_filter               Filter and Index Functions on Corpora
+tm_map                  Transformations on Corpora
+tm_parLapply            Parallelized 'lapply'
+tm_reduce               Combine Transformations
+tm_term_score           Compute Score for Matching Terms
+weightBin               Weight Binary
+weightSMART             SMART Weightings
+weightTf                Weight by Term Frequency
+weightTfIdf             Weight by Term Frequency - Inverse Document
+                        Frequency
+writeCorpus             Write a Corpus to Disk

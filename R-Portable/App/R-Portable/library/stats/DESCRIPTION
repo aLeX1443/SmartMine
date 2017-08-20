@@ -1,0 +1,12 @@
+Package: stats
+Version: 3.4.1
+Priority: base
+Title: The R Stats Package
+Author: R Core Team and contributors worldwide
+Maintainer: R Core Team <R-core@r-project.org>
+Description: R statistical functions.
+License: Part of R 3.4.1
+Imports: utils, grDevices, graphics
+Suggests: MASS, Matrix, SuppDists, methods, stats4
+NeedsCompilation: yes
+Built: R 3.4.1; x86_64-w64-mingw32; 2017-06-30 11:50:39 UTC; windows

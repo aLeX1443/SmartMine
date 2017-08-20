@@ -1,0 +1,11 @@
+Maxent_Chunk_Annotator
+                        Apache OpenNLP based chunk annotators
+Maxent_Entity_Annotator
+                        Apache OpenNLP based entity annotators
+Maxent_POS_Tag_Annotator
+                        Apache OpenNLP based POS tag annotators
+Maxent_Sent_Token_Annotator
+                        Apache OpenNLP based sentence token annotators
+Maxent_Word_Token_Annotator
+                        Apache OpenNLP based word token annotators
+Parse_Annotator         Apache OpenNLP based parse annotator

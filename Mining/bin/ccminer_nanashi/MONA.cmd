@@ -1,0 +1,1 @@
+miner -a lyra2v2 -o stratum+tcp://mona.suprnova.cc:2995 -u aL_eX.worker_1 -p x --no-color

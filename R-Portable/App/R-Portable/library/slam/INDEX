@@ -1,0 +1,13 @@
+abind_simple_sparse_array
+                        Combine Sparse Arrays
+read_stm_CLUTO          Read and Write Sparse Matrix Format Files
+rollup                  Rollup Sparse Arrays
+row_norms               Row and Column Norms
+row_sums                Form Row and Column Sums and Means
+rowapply_simple_triplet_matrix
+                        Apply Functions Over Sparse Matrix Margins
+simple_sparse_array     Simple Sparse Arrays
+simple_triplet_matrix   Simple Triplet Matrix
+slam_options            Options for the 'slam' package
+tcrossprod_simple_triplet_matrix
+                        Matrix Crossproduct

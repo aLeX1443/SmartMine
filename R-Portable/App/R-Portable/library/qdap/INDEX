@@ -1,0 +1,543 @@
+%&%                     qdap Chaining
++.Network               Add themes to a Network object.
+Animate                 Generic Animate Method
+Animate.character       Animate Character
+Animate.discourse_map   Discourse Map
+Animate.formality       Animate Formality
+Animate.gantt           Gantt Durations
+Animate.gantt_plot      Gantt Plot
+Animate.lexical_classification
+                        Animate Formality
+Animate.polarity        Animate Polarity
+DATA                    Fictitious Classroom Dialogue
+DATA.SPLIT              Fictitious Split Sentence Classroom Dialogue
+DATA2                   Fictitious Repeated Measures Classroom Dialogue
+Dissimilarity           Dissimilarity Statistics
+Filter.all_words        Filter
+NAer                    Replace Missing Values (NA)
+Network                 Generic Network Method
+Network.formality       Network Formality
+Network.lexical_classification
+                        Network Lexical Classification
+Network.polarity        Network Polarity
+Search                  Search Columns of a Data Frame
+Title                   Add Title to Select qdap Plots
+Trim                    Remove Leading/Trailing White Space
+add_incomplete          Detect Incomplete Sentences; Add | Endmark
+add_s                   Make Plural (or Verb to Singular) Versions of
+                        Words
+adjacency_matrix        Takes a Matrix and Generates an Adjacency
+                        Matrix
+all_words               Searches Text Column for Words
+as.tdm                  tm Package Compatibility Tools: Apply to or
+                        Convert to/from Term Document Matrix or
+                        Document Term Matrix
+automated_readability_index
+                        Readability Measures
+bag_o_words             Bag of Words
+beg2char                Grab Begin/End of String to Character
+blank2NA                Replace Blanks in a dataframe
+bracketX                Bracket Parsing
+build_qdap_vignette     Replace Temporary Introduction to qdap Vignette
+capitalizer             Capitalize Select Words
+check_spelling          Check Spelling
+check_spelling_interactive.character
+                        Check Spelling
+check_spelling_interactive.check_spelling
+                        Check Spelling
+check_spelling_interactive.factor
+                        Check Spelling
+check_text              Check Text For Potential Problems
+chunker                 Break Text Into Ordered Word Chunks
+clean                   Remove Escaped Characters
+cm_2long                A Generic to Long Function
+cm_code.blank           Blank Code Transformation
+cm_code.combine         Combine Codes
+cm_code.exclude         Exclude Codes
+cm_code.overlap         Find Co-occurrence Between Codes
+cm_code.transform       Transform Codes
+cm_combine.dummy        Find Co-occurrence Between Dummy Codes
+cm_df.fill              Range Coding
+cm_df.temp              Break Transcript Dialogue into Blank Code
+                        Matrix
+cm_df.transcript        Transcript With Word Number
+cm_df2long              Transform Codes to Start-End Durations
+cm_distance             Distance Matrix Between Codes
+cm_dummy2long           Convert cm_combine.dummy Back to Long
+cm_long2dummy           Stretch and Dummy Code cm_xxx2long
+cm_range.temp           Range Code Sheet
+cm_range2long           Transform Codes to Start-End Durations
+cm_time.temp            Time Span Code Sheet
+cm_time2long            Transform Codes to Start-End Times
+colSplit                Separate a Column Pasted by paste2
+colcomb2class           Combine Columns to Class
+colsplit2df             Wrapper for colSplit that Returns Dataframe(s)
+comma_spacer            Ensure Space After Comma
+common                  Find Common Words Between Groups
+common.list             list Method for common
+condense                Condense Dataframe Columns
+counts                  Generic Counts Method
+counts.SMOG             Readability Measures
+counts.automated_readability_index
+                        Readability Measures
+counts.character_table
+                        Term Counts
+counts.coleman_liau     Readability Measures
+counts.end_mark_by      Question Counts
+counts.flesch_kincaid   Readability Measures
+counts.formality        Formality
+counts.fry              Readability Measures
+counts.linsear_write    Readability Measures
+counts.object_pronoun_type
+                        Question Counts
+counts.polarity         Polarity
+counts.pos              Parts of Speech
+counts.pos_by           Parts of Speech
+counts.pronoun_type     Question Counts
+counts.question_type    Question Counts
+counts.subject_pronoun_type
+                        Question Counts
+counts.termco           Term Counts
+counts.word_length      Word Length Counts
+counts.word_position    Word Position
+counts.word_stats       Word Stats
+cumulative              Cumulative Scores
+dir_map                 Map Transcript Files from a Directory to a
+                        Script
+discourse_map           Discourse Mapping
+dispersion_plot         Lexical Dispersion Plot
+dist_tab                SPSS Style Frequency Tables
+diversity               Diversity Statistics
+duplicates              Find Duplicated Words in a Text String
+end_inc                 Test for Incomplete Sentences
+end_mark                Sentence End Marks
+env.syl                 Syllable Lookup Environment
+exclude                 Exclude Elements From a Vector
+formality               Formality Score
+freq_terms              Find Frequent Terms
+gantt                   Gantt Durations
+gantt_plot              Gantt Plot
+gantt_rep               Generate Unit Spans for Repeated Measures
+gantt_wrap              Gantt Plot
+gradient_cloud          Gradient Word Cloud
+hamlet                  Hamlet (Complete & Split by Sentence)
+htruncdf                Dataframe Viewing
+imperative              Intuitively Remark Sentences as Imperative
+incomplete_replace      Denote Incomplete End Marks With "|"
+inspect_text            Inspect Text Vectors
+is.global               Test If Environment is Global
+key_merge               Merge Demographic Information with Person/Text
+                        Transcript
+kullback_leibler        Kullback Leibler Statistic
+left_just               Text Justification
+lexical_classification
+                        Lexical Classification Score
+mcsv_r                  Read/Write Multiple csv Files at a Time
+mraja1                  Romeo and Juliet: Act 1 Dialogue Merged with
+                        Demographics
+mraja1spl               Romeo and Juliet: Act 1 Dialogue Merged with
+                        Demographics and Split
+multigsub               Multiple gsub
+multiscale              Nested Standardization
+name2sex                Names to Gender
+new_project             Project Template
+ngrams                  Generate ngrams
+object_pronoun_type     Count Object Pronouns Per Grouping Variable
+outlier_detect          Detect Outliers in Text
+outlier_labeler         Locate Outliers in Numeric String
+paste2                  Paste an Unspecified Number Of Text Columns
+phrase_net              Phrase Nets
+plot.Network            Plots a Network Object
+plot.SMOG               Plots a SMOG Object
+plot.animated_character
+                        Plots an animated_character Object
+plot.animated_discourse_map
+                        Plots an animated_discourse_map Object
+plot.animated_formality
+                        Plots a animated_formality Object
+plot.animated_lexical_classification
+                        Plots an animated_lexical_classification Object
+plot.animated_polarity
+                        Plots an animated_polarity Object
+plot.automated_readability_index
+                        Plots a automated_readability_index Object
+plot.character_table    Plots a character_table Object
+plot.cm_distance        Plots a cm_distance object
+plot.cmspans            Plots a cmspans object
+plot.coleman_liau       Plots a coleman_liau Object
+plot.combo_syllable_sum
+                        Plots a combo_syllable_sum Object
+plot.cumulative_animated_formality
+                        Plots a cumulative_animated_formality Object
+plot.cumulative_animated_lexical_classification
+                        Plots a
+                        cumulative_animated_lexical_classification
+                        Object
+plot.cumulative_animated_polarity
+                        Plots a cumulative_animated_polarity Object
+plot.cumulative_combo_syllable_sum
+                        Plots a cumulative_combo_syllable_sum Object
+plot.cumulative_end_mark
+                        Plots a cumulative_end_mark Object
+plot.cumulative_formality
+                        Plots a cumulative_formality Object
+plot.cumulative_lexical_classification
+                        Plots a cumulative_lexical_classification
+                        Object
+plot.cumulative_polarity
+                        Plots a cumulative_polarity Object
+plot.cumulative_syllable_freq
+                        Plots a cumulative_syllable_freq Object
+plot.discourse_map      Plots a discourse_map Object
+plot.diversity          Plots a diversity object
+plot.end_mark           Plots an end_mark Object
+plot.end_mark_by        Plots a end_mark_by Object
+plot.end_mark_by_count
+                        Plots a end_mark_by_count Object
+plot.end_mark_by_preprocessed
+                        Plots a end_mark_by_preprocessed Object
+plot.end_mark_by_proportion
+                        Plots a end_mark_by_proportion Object
+plot.end_mark_by_score
+                        Plots a end_mark_by_score Object
+plot.flesch_kincaid     Plots a flesch_kincaid Object
+plot.formality          Plots a formality Object
+plot.formality_scores   Plots a formality_scores Object
+plot.freq_terms         Plots a freq_terms Object
+plot.gantt              Plots a gantt object
+plot.kullback_leibler   Plots a kullback_leibler object
+plot.lexical            Plots a lexical Object
+plot.lexical_classification
+                        Plots a lexical_classification Object
+plot.lexical_classification_preprocessed
+                        Plots a lexical_classification_preprocessed
+                        Object
+plot.lexical_classification_score
+                        Plots a lexical_classification_score Object
+plot.linsear_write      Plots a linsear_write Object
+plot.linsear_write_count
+                        Plots a linsear_write_count Object
+plot.linsear_write_scores
+                        Plots a linsear_write_scores Object
+plot.object_pronoun_type
+                        Plots an object_pronoun_type Object
+plot.polarity           Plots a polarity Object
+plot.polarity_count     Plots a polarity_count Object
+plot.polarity_score     Plots a polarity_score Object
+plot.pos                Plots a pos Object
+plot.pos_by             Plots a pos_by Object
+plot.pos_preprocessed   Plots a pos_preprocessed Object
+plot.pronoun_type       Plots an pronoun_type Object
+plot.question_type      Plots a question_type Object
+plot.question_type_preprocessed
+                        Plots a question_type_preprocessed Object
+plot.readability_count
+                        Plots a readability_count Object
+plot.readability_score
+                        Plots a readability_score Object
+plot.rmgantt            Plots a rmgantt object
+plot.sent_split         Plots a sent_split Object
+plot.subject_pronoun_type
+                        Plots an subject_pronoun_type Object
+plot.sum_cmspans        Plot Summary Stats for a Summary of a cmspans
+                        Object
+plot.sums_gantt         Plots a sums_gantt object
+plot.syllable_freq      Plots a syllable_freq Object
+plot.table_count        Plots a table_count Object
+plot.table_proportion   Plots a table_proportion Object
+plot.table_score        Plots a table_score Object
+plot.termco             Plots a termco object
+plot.type_token_ratio   Plots a type_token_ratio Object
+plot.weighted_wfm       Plots a weighted_wfm object
+plot.wfdf               Plots a wfdf object
+plot.wfm                Plots a wfm object
+plot.word_cor           Plots a word_cor object
+plot.word_length        Plots a word_length Object
+plot.word_position      Plots a word_position object
+plot.word_proximity     Plots a word_proximity object
+plot.word_stats         Plots a word_stats object
+plot.word_stats_counts
+                        Plots a word_stats_counts Object
+polarity                Polarity Score (Sentiment Analysis)
+pos                     Parts of Speech Tagging
+potential_NA            Search for Potential Missing Values
+preprocessed            Generic Preprocessed Method
+preprocessed.check_spelling_interactive
+                        Check Spelling
+preprocessed.end_mark_by
+                        Question Counts
+preprocessed.formality
+                        Formality
+preprocessed.lexical_classification
+                        Lexical Classification
+preprocessed.object_pronoun_type
+                        Question Counts
+preprocessed.pos        Parts of Speech
+preprocessed.pos_by     Parts of Speech
+preprocessed.pronoun_type
+                        Question Counts
+preprocessed.question_type
+                        Question Counts
+preprocessed.subject_pronoun_type
+                        Question Counts
+preprocessed.word_position
+                        Word Position
+pres_debate_raw2012     First 2012 U.S. Presidential Debate
+pres_debates2012        2012 U.S. Presidential Debates
+print.Dissimilarity     Prints a Dissimilarity object
+print.Network           Prints a Network Object
+print.SMOG              Prints an SMOG Object
+print.adjacency_matrix
+                        Prints an adjacency_matrix Object
+print.all_words         Prints an all_words Object
+print.animated_character
+                        Prints an animated_character Object
+print.animated_discourse_map
+                        Prints an animated_discourse_map Object
+print.animated_formality
+                        Prints a animated_formality Object
+print.animated_lexical_classification
+                        Prints an animated_lexical_classification
+                        Object
+print.animated_polarity
+                        Prints an animated_polarity Object
+print.automated_readability_index
+                        Prints an automated_readability_index Object
+print.boolean_qdap      Prints a boolean_qdap object
+print.character_table   Prints a character_table object
+print.check_spelling    Prints a check_spelling Object
+print.check_spelling_interactive
+                        Prints a check_spelling_interactive Object
+print.check_text        Prints a check_text Object
+print.cm_distance       Prints a cm_distance Object
+print.coleman_liau      Prints an coleman_liau Object
+print.colsplit2df       Prints a colsplit2df Object.
+print.combo_syllable_sum
+                        Prints an combo_syllable_sum object
+print.cumulative_animated_formality
+                        Prints a cumulative_animated_formality Object
+print.cumulative_animated_lexical_classification
+                        Prints a
+                        cumulative_animated_lexical_classification
+                        Object
+print.cumulative_animated_polarity
+                        Prints a cumulative_animated_polarity Object
+print.cumulative_combo_syllable_sum
+                        Prints a cumulative_combo_syllable_sum Object
+print.cumulative_end_mark
+                        Prints a cumulative_end_mark Object
+print.cumulative_formality
+                        Prints a cumulative_formality Object
+print.cumulative_lexical_classification
+                        Prints a cumulative_lexical_classification
+                        Object
+print.cumulative_polarity
+                        Prints a cumulative_polarity Object
+print.cumulative_syllable_freq
+                        Prints a cumulative_syllable_freqObject
+print.discourse_map     Prints a discourse_map Object
+print.diversity         Prints a diversity object
+print.end_mark          Prints an end_mark object
+print.end_mark_by       Prints an end_mark_by object
+print.end_mark_by_preprocessed
+                        Prints a end_mark_by_preprocessed object
+print.flesch_kincaid    Prints an flesch_kincaid Object
+print.formality         Prints a formality Object
+print.formality_scores
+                        Prints a formality_scores object
+print.fry               Prints an fry Object
+print.inspect_text      Prints an inspect_text Object
+print.kullback_leibler
+                        Prints a kullback_leibler Object.
+print.lexical_classification
+                        Prints an lexical_classification Object
+print.lexical_classification_by
+                        Prints a lexical_classification Object
+print.lexical_classification_preprocessed
+                        Prints a lexical_classification_preprocessed
+                        Object
+print.lexical_classification_score
+                        Prints a lexical_classification_score Object
+print.linsear_write     Prints an linsear_write Object
+print.linsear_write_count
+                        Prints a linsear_write_count Object
+print.linsear_write_scores
+                        Prints a linsear_write_scores Object
+print.ngrams            Prints an ngrams object
+print.object_pronoun_type
+                        Prints a object_pronoun_type object
+print.phrase_net        Prints a phrase_net Object
+print.polarity          Prints an polarity Object
+print.polarity_count    Prints a polarity_count Object
+print.polarity_score    Prints a polarity_score Object
+print.polysyllable_sum
+                        Prints an polysyllable_sum object
+print.pos               Prints a pos Object.
+print.pos_by            Prints a pos_by Object.
+print.pos_preprocessed
+                        Prints a pos_preprocessed object
+print.pronoun_type      Prints a pronoun_type object
+print.qdapProj          Prints a qdapProj Object
+print.qdap_context      Prints a qdap_context object
+print.question_type     Prints a question_type object
+print.question_type_preprocessed
+                        Prints a question_type_preprocessed object
+print.readability_count
+                        Prints a readability_count Object
+print.readability_score
+                        Prints a readability_score Object
+print.sent_split        Prints a sent_split object
+print.sub_holder        Prints a sub_holder object
+print.subject_pronoun_type
+                        Prints a subject_pronoun_type object
+print.sum_cmspans       Prints a sum_cmspans object
+print.sums_gantt        Prints a sums_gantt object
+print.syllable_sum      Prints an syllable_sum object
+print.table_count       Prints a table_count object
+print.table_proportion
+                        Prints a table_proportion object
+print.table_score       Prints a table_score object
+print.termco            Prints a termco object.
+print.trunc             Prints a trunc object
+print.type_token_ratio
+                        Prints a type_token_ratio Object
+print.wfm               Prints a wfm Object
+print.wfm_summary       Prints a wfm_summary Object
+print.which_misspelled
+                        Prints a which_misspelled Object
+print.word_associate    Prints a word_associate object
+print.word_cor          Prints a word_cor object
+print.word_length       Prints a word_length object
+print.word_list         Prints a word_list Object
+print.word_position     Prints a word_position object.
+print.word_proximity    Prints a word_proximity object
+print.word_stats        Prints a word_stats object
+print.word_stats_counts
+                        Prints a word_stats_counts object
+pronoun_type            Count Object/Subject Pronouns Per Grouping
+                        Variable
+prop                    Convert Raw Numeric Matrix or Data Frame to
+                        Proportions
+proportions             Generic Proportions Method
+proportions.character_table
+                        Term Counts
+proportions.end_mark_by
+                        Question Counts
+proportions.formality   Formality
+proportions.object_pronoun_type
+                        Question Counts
+proportions.pos         Parts of Speech
+proportions.pos_by      Parts of Speech
+proportions.pronoun_type
+                        Question Counts
+proportions.question_type
+                        Question Counts
+proportions.subject_pronoun_type
+                        Question Counts
+proportions.termco      Term Counts
+proportions.word_length
+                        Word Length Counts
+proportions.word_position
+                        Word Position
+qcombine                Combine Columns
+qcv                     Quick Character Vector
+qdap                    qdap: Quantitative Discourse Analysis Package
+qdap_df                 Create qdap Specific Data Structure
+qheat                   Quick Heatmap
+qprep                   Quick Preparation of Text
+qtheme                  Add themes to a Network object.
+question_type           Count of Question Type
+raj                     Romeo and Juliet (Unchanged & Complete)
+raj.act.1               Romeo and Juliet: Act 1
+raj.act.1POS            Romeo and Juliet: Act 1 Parts of Speech by
+                        Person A dataset containing a list from
+                        'pos_by' using the 'mraja1spl' data set (see
+                        'pos_by' for more information).
+raj.act.2               Romeo and Juliet: Act 2
+raj.act.3               Romeo and Juliet: Act 3
+raj.act.4               Romeo and Juliet: Act 4
+raj.act.5               Romeo and Juliet: Act 5
+raj.demographics        Romeo and Juliet Demographics
+rajPOS                  Romeo and Juliet Split in Parts of Speech
+rajSPLIT                Romeo and Juliet (Complete & Split)
+random_sent             Generate Random Dialogue Data
+rank_freq_mplot         Rank Frequency Plot
+raw.time.span           Minimal Raw Time Span Data Set
+read.transcript         Read Transcripts Into R
+replace_abbreviation    Replace Abbreviations
+replace_contraction     Replace Contractions
+replace_number          Replace Numbers With Text Representation
+replace_ordinal         Replace Mixed Ordinal Numbers With Text
+                        Representation
+replace_symbol          Replace Symbols With Word Equivalents
+replacer                Replace Cells in a Matrix or Data Frame
+rm_row                  Remove Rows That Contain Markers
+rm_stopwords            Remove Stop Words
+sample.time.span        Minimal Time Span Data Set
+scores                  Generic Scores Method
+scores.SMOG             Readability Measures
+scores.automated_readability_index
+                        Readability Measures
+scores.character_table
+                        Term Counts
+scores.coleman_liau     Readability Measures
+scores.end_mark_by      Question Counts
+scores.flesch_kincaid   Readability Measures
+scores.formality        Formality
+scores.fry              Readability Measures
+scores.lexical_classification
+                        Lexical Classification
+scores.linsear_write    Readability Measures
+scores.object_pronoun_type
+                        Question Counts
+scores.polarity         Polarity
+scores.pos_by           Parts of Speech
+scores.pronoun_type     Question Counts
+scores.question_type    Question Counts
+scores.subject_pronoun_type
+                        Question Counts
+scores.termco           Term Counts
+scores.word_length      Word Length Counts
+scores.word_position    Word Position
+scores.word_stats       Word Stats
+scrubber                Clean Imported Text
+sentSplit               Sentence Splitting
+sentiment_frame         Power Score (Sentiment Analysis)
+space_fill              Replace Spaces
+spaste                  Add Leading/Trailing Spaces
+speakerSplit            Break and Stretch if Multiple Persons per Cell
+stemmer                 Stem Text
+strWrap                 Wrap Character Strings to Format Paragraphs
+strip                   Strip Text
+subject_pronoun_type    Count Subject Pronouns Per Grouping Variable
+summary.cmspans         Summarize a cmspans object
+summary.wfdf            Summarize a wfdf object
+summary.wfm             Summarize a wfm object
+syllable_sum            Syllabication
+synonyms                Search For Synonyms
+t.DocumentTermMatrix    Transposes a DocumentTermMatrix object
+t.TermDocumentMatrix    Transposes a TermDocumentMatrix object
+termco                  Search For and Count Terms
+termco_c                Combine Columns from a termco Object
+tot_plot                Visualize Word Length by Turn of Talk
+trans_cloud             Word Clouds by Grouping Variable
+trans_context           Print Context Around Indices
+trans_venn              Venn Diagram by Grouping Variable
+type_token_ratio        Type-Token Ratio
+unique_by               Find Unique Words by Grouping Variable
+vertex_apply            Apply Parameter to List of Igraph
+                        Vertices/Edges
+visual                  Generic visual Method
+visual.discourse_map    Discourse Map
+weight                  Weight a qdap Object
+wfm                     Word Frequency Matrix
+word_associate          Find Associated Words
+word_cor                Find Correlated Words
+word_count              Word Counts
+word_diff_list          Differences In Word Use Between Groups
+word_length             Count of Word Lengths Type
+word_list               Raw Word Lists/Frequency Counts
+word_network_plot       Word Network Plot
+word_position           Word Position
+word_proximity          Proximity Matrix Between Words
+word_stats              Descriptive Word Statistics
