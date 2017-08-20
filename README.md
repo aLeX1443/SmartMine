@@ -16,6 +16,7 @@ Instructions on setting up mining pool accounts:
 You can mine into whatever pool you like, but the recommended pools are as follows:
 
 
+
 • Suprnova.cc pools: (you only need to create one account for these pools, hence only following the first link is necessary)
 
 DCR: https://dcr.suprnova.cc/index.php?page=gettingstarted
