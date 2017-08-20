@@ -1,4 +1,4 @@
-##### IMPORTANT: 
+###### IMPORTANT: 
 
 Before you start mining, go into the Mining\bin folder, then each subfolder and modify the Windows Command Script files (ending in .bat) to match your mining pool accounts.
 Only modify the fields after -u and -p for the ccminer folders, and --user and --pass for the ewfb folder.
@@ -8,7 +8,7 @@ Also, go into the config.r file in the main directory and follow the instruction
 Note: it may be easier to edit the file with Notepad++ instead of Notepad.
 
 
-###### Instructions on setting up mining pool accounts:
+##### Instructions on setting up mining pool accounts:
 
 
 You can mine into whatever pool you like, but the recommended pools are as follows:
