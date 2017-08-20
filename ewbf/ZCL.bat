@@ -1,0 +1,1 @@
+miner --server zcl.suprnova.cc --user aL_eX.worker_1 --pass x --port 4042
