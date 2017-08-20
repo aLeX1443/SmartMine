@@ -9,7 +9,12 @@ Note: it may be easier to edit the file with Notepad++ instead of Notepad.
 
 
 Instructions on setting up mining pool accounts:
-\n
+
+
+
+
+
+
 
 You can mine into whatever pool you like, but the recommended pools are as follows:
 
