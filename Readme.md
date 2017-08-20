@@ -1,3 +1,5 @@
+#SmartMine
+
 ###### IMPORTANT: 
 
 Before you start mining, go into the Mining\bin folder, then each subfolder and modify the Windows Command Script files (ending in .bat) to match your mining pool accounts.
