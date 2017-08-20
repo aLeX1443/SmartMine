@@ -1,3 +1,0 @@
-import(rJava)
-export(venneuler)
-S3method(plot, VennDiagram)

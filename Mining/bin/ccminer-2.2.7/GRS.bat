@@ -1,1 +1,0 @@
-miner -a groestl -o stratum+tcp://grs.suprnova.cc:5544 -u aL_eX.worker_1 -p x --no-color

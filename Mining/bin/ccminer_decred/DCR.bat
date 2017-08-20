@@ -1,1 +1,0 @@
-miner -a decred -o stratum+tcp://dcr.suprnova.cc:3256 -u aL_eX.worker_1 -p x --no-color

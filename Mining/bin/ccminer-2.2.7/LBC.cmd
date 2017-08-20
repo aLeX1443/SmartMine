@@ -1,1 +1,0 @@
-miner -a lbry -o stratum+tcp://lbry.suprnova.cc:6256 -u aL_eX.worker_1 -p x --no-color

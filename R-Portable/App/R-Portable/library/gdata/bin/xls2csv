@@ -1,3 +1,0 @@
-#!/bin/sh
-PERLPATH="`dirname ${0}`/../perl/"
-perl "${PERLPATH}/xls2csv.pl" $*

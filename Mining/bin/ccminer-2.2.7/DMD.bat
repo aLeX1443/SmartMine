@@ -1,1 +1,0 @@
-miner -a dmd-gr -o stratum+tcp://eu.miningfield.com:3377 -u aL_eX.worker_1 -p x --no-color
