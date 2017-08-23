@@ -18,6 +18,6 @@
 - Estimates of total power consumption over time
 - And many, many more :)
 
-Supported cryptocurrencies: DCR, DGB, DMD, FTC, GRS, KMD, LBC, MONA, SIB, SIGT, ZCL, ZEC and ZEN
+Supported cryptocurrencies: DCR, DGB, DMD, ETH, ETC, FTC, GRS, HUSH, KMD, LBC, MONA, SIB, SIGT, ZCL, ZEC and ZEN
 
 As of right now, there's a 2% fee which supports the development of the application. The fee works by mining into your pools for 98% of the time and mining into our pools for 2% of the time. In contrast, other similar services charge an upfront cost which we don't want to do.
