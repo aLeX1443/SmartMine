@@ -3,11 +3,13 @@
 SmartMine allows you to mine 16 different cryptocurrencies directly (with support for more coins coming). Mining coins this way has consistently higher profitability over selling your hashing power with other similar services. Head over to [WhatToMine](https://whattomine.com) and enter your hardware to see how much you would be making.
 
 
-*Why do we stand out?*
+Why do we stand out?
 
 
 SmartMine is able to identify problems such as lower hash rates than expected, and take the steps necessary to fix them. It does this by checking if the miner is an active process on the GPU, taking into account GPU power consumption and current hash rate, and then restarting the miner if required. This way, you'll have close to no down time on your mining.
+
 ---
+
 ### Features:
 - SmartMine switches to the most profitable coin automatically
 - You can choose any pool to mine into
