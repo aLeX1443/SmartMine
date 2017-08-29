@@ -1,6 +1,8 @@
 # SmartMine
 
-SmartMine allows you to mine 16 different cryptocurrencies directly (with support for more coins coming). Mining coins this way has consistently higher profitability over selling your hashing power with other similar services. Head over to [WhatToMine](https://whattomine.com) and enter your hardware to see how much you would be making.
+SmartMine allows you to mine 16 different cryptocurrencies directly (with support for more coins coming). Mining coins this way has consistently higher profitability over selling your hashing power with other similar services.
+
+Head over to [WhatToMine](https://whattomine.com) and enter your hardware to see how much you would be making.
 
 
 *Why do we stand out?*
