@@ -1,5 +1,8 @@
 # SmartMine
 
+## Update:
+We are working hard on SmartMine v0.5 which will bring a graphical user interface, a simplified setup process and many other great features. Look out for this release in the coming months!
+
 SmartMine allows you to mine 16 different cryptocurrencies directly (with support for more coins coming). Mining coins this way has consistently higher profitability over selling your hashing power with other similar services.
 
 Head over to [WhatToMine](https://whattomine.com) and enter your hardware to see how much you would be making.
