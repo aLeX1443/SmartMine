@@ -10,7 +10,7 @@ SmartMine is a profit-switching mining application that allows you to mine coins
 
 For help on setting up SmartMine, please visit: https://www.smartmine.org/help
 
-*Screenshots:*
+### Screenshots:
 
 [GPU Info](https://imgur.com/PfzL06a)
 
