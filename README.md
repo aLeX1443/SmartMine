@@ -12,7 +12,10 @@ For help on setting up SmartMine, please visit: https://www.smartmine.org/help
 
 ### Screenshots:
 
-[GPU Info](https://imgur.com/PfzL06a), [Coin Statistics](https://imgur.com/TQmQPY0), [SmartMine Log](https://imgur.com/WD4p1HE), [Pool Setup](https://imgur.com/Kz95t4D)
+- [GPU Info](https://imgur.com/PfzL06a)
+- [Coin Statistics](https://imgur.com/TQmQPY0)
+- [SmartMine Log](https://imgur.com/WD4p1HE)
+- [Pool Setup](https://imgur.com/Kz95t4D)
 
 
 SmartMine allows you to mine 22 different coins directly (with support for more coins coming). Mining coins this way has consistently higher profitability over selling your hashing power with other similar services.
